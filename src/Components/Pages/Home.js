@@ -18,7 +18,8 @@ function Home() {
     };
     return (
         <>
-            <section style={{ height: 560 }}>
+            {/** HERO SECTION */}
+            <section style={{ height: 760 }}>
                 <div className='flex justify-center -z-10 overflow-hidden absolute bg-white'>
                     <img className='object-none object-bottom' src={image} alt="wallpaper" />
                 </div>
@@ -86,10 +87,220 @@ function Home() {
                                 </div>
                             </div>
                         </form>
-
                     </div>
                 </div>
             </section>
+            {/** PROJECTS SECTION */}
+            <section class="text-gray-600 body-font">
+                <div class="container px-5 py-24 mx-auto">
+                    <div class="flex flex-wrap w-full mb-20">
+                        <div class="lg:w-1/2 w-full mb-6 lg:mb-0">
+                            <h1 class="sm:text-3xl text-2xl font-medium title-font mb-2 text-gray-900">Projects</h1>
+                            <div class="h-1 w-20 bg-indigo-500 rounded"></div>
+                        </div>
+                    </div>
+                    <div class="flex flex-wrap -m-4">
+                        <div class="xl:w-1/4 md:w-1/2 p-4">
+                            <div class="bg-gray-100 p-6 rounded-lg">
+                                <img class="h-40 rounded w-full object-cover object-center mb-6" src="https://dummyimage.com/720x400" alt="content" />
+                                <h3 class="tracking-widest text-indigo-500 text-xs font-medium title-font">Islamabad, B-17</h3>
+                                <h2 class="text-lg text-gray-900 font-medium title-font mb-4">54 Lakh to 2.5 Crore, Ideas One</h2>
+                                <p class="leading-relaxed text-base">Shops, Flats</p>
+                            </div>
+                        </div>
+                        <div class="xl:w-1/4 md:w-1/2 p-4">
+                            <div class="bg-gray-100 p-6 rounded-lg">
+                                <img class="h-40 rounded w-full object-cover object-center mb-6" src="https://dummyimage.com/721x401" alt="content" />
+                                <h3 class="tracking-widest text-indigo-500 text-xs font-medium title-font">Gadap Town, Surjani Town</h3>
+                                <h2 class="text-lg text-gray-900 font-medium title-font mb-4">44 Lakh to 1 Crore, Aziz Skyline</h2>
+                                <p class="leading-relaxed text-base">Flats</p>
+                            </div>
+                        </div>
+                        <div class="xl:w-1/4 md:w-1/2 p-4">
+                            <div class="bg-gray-100 p-6 rounded-lg">
+                                <img class="h-40 rounded w-full object-cover object-center mb-6" src="https://dummyimage.com/722x402" alt="content" />
+                                <h3 class="tracking-widest text-indigo-500 text-xs font-medium title-font">Tariq Ismail Road, Lahore</h3>
+                                <h2 class="text-lg text-gray-900 font-medium title-font mb-4">2.5 Crore, Eastern Homes</h2>
+                                <p class="leading-relaxed text-base">Houses</p>
+                            </div>
+                        </div>
+                        <div class="xl:w-1/4 md:w-1/2 p-4">
+                            <div class="bg-gray-100 p-6 rounded-lg">
+                                <img class="h-40 rounded w-full object-cover object-center mb-6" src="https://dummyimage.com/723x403" alt="content" />
+                                <h3 class="tracking-widest text-indigo-500 text-xs font-medium title-font">GT Road, Islamabad</h3>
+                                <h2 class="text-lg text-gray-900 font-medium title-font mb-4">66 Lakh to 90 Lakh, NORA Residences</h2>
+                                <p class="leading-relaxed text-base">Flats</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            {/** NEWS SECTION */}
+            <section class="text-gray-600 body-font overflow-hidden">
+                <div class="container px-5 py-24 mx-auto">
+                    <div class="flex flex-wrap w-full mb-20">
+                        <div class="lg:w-1/2 w-full mb-6 lg:mb-0">
+                            <h1 class="sm:text-3xl text-2xl font-medium title-font mb-2 text-gray-900">News</h1>
+                            <div class="h-1 w-20 bg-indigo-500 rounded"></div>
+                        </div>
+                    </div>
+                    <div class="-my-8 divide-y-2 divide-gray-100">
+                        <div class="py-8 flex flex-wrap md:flex-nowrap">
+                            <div class="md:w-64 md:mb-0 mb-6 flex-shrink-0 flex flex-col">
+                                <span class="font-semibold title-font text-gray-700">DHA Multan opens much-awaited Pakistan Square</span>
+                                <span class="mt-1 text-gray-500 text-sm">MARCH 25, 2023</span>
+                            </div>
+                            <div class="md:flex-grow">
+                                <p class="leading-relaxed">Multan: The Defence Housing Authority (DHA) Multan inaugurated the much-awaited Pakistan Square on March 23, …</p>
+                                <a class="text-indigo-500 inline-flex items-center mt-4" href="/">Learn More
+                                    <svg class="w-4 h-4 ml-2" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2" fill="none" stroke-linecap="round" stroke-linejoin="round">
+                                        <path d="M5 12h14"></path>
+                                        <path d="M12 5l7 7-7 7"></path>
+                                    </svg>
+                                </a>
+                            </div>
+                        </div>
+                        <div class="py-8 flex flex-wrap md:flex-nowrap">
+                            <div class="md:w-64 md:mb-0 mb-6 flex-shrink-0 flex flex-col">
+                                <span class="font-semibold title-font text-gray-700">Jauhar Chowrangi’s Zia Moheyddin flyover opens to traffic</span>
+                                <span class="mt-1 text-gray-500 text-sm">MARCH 25, 2023</span>
+                            </div>
+                            <div class="md:flex-grow">
+                                <p class="leading-relaxed">Karachi: Foreign Minister (FM) Bilawal Bhutto Zardari inaugurated the Zia Moheyddin Flyover at Jauhar Chowrangi …</p>
+                                <a class="text-indigo-500 inline-flex items-center mt-4" href="/">Learn More
+                                    <svg class="w-4 h-4 ml-2" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2" fill="none" stroke-linecap="round" stroke-linejoin="round">
+                                        <path d="M5 12h14"></path>
+                                        <path d="M12 5l7 7-7 7"></path>
+                                    </svg>
+                                </a>
+                            </div>
+                        </div>
+                        <div class="py-8 flex flex-wrap md:flex-nowrap">
+                            <div class="md:w-64 md:mb-0 mb-6 flex-shrink-0 flex flex-col">
+                                <span class="font-semibold title-font text-gray-700">CDA to identify buildings damaged by earthquake</span>
+                                <span class="text-sm text-gray-500">MARCH 24, 2023</span>
+                            </div>
+                            <div class="md:flex-grow">
+                                <p class="leading-relaxed">Islamabad: The Capital Development Authority (CDA) Chairman Noor-ul-Amin Mengal has directed the officials of the …</p>
+                                <a class="text-indigo-500 inline-flex items-center mt-4" href="/">Learn More
+                                    <svg class="w-4 h-4 ml-2" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2" fill="none" stroke-linecap="round" stroke-linejoin="round">
+                                        <path d="M5 12h14"></path>
+                                        <path d="M12 5l7 7-7 7"></path>
+                                    </svg>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            {/** BLOG SECTION */}
+            <section class="text-gray-600 body-font bg-white dark:bg-gray-900">
+                <div class="container px-5 py-24 mx-auto">
+                    <div class="flex flex-wrap w-full mb-20">
+                        <div class="lg:w-1/2 w-full mb-6 lg:mb-0">
+                            <h1 class="sm:text-3xl text-2xl font-medium title-font mb-2 text-gray-900">Blogs</h1>
+                            <div class="h-1 w-20 bg-indigo-500 rounded"></div>
+                        </div>
+                    </div>
+                    <div class="flex flex-wrap -m-4">
+                        <div class="lg:w-1/4 md:w-1/2 p-4 w-full">
+                            <a class="block relative h-48 rounded overflow-hidden" href="/">
+                                <img alt="ecommerce" class="object-cover object-center w-full h-full block" src="https://dummyimage.com/420x260" />
+                            </a>
+                            <div class="mt-4">
+                                <h3 class="text-gray-500 text-xs tracking-widest title-font mb-1">REAL ESTATE TRENDS - 4 MIN READ</h3>
+                                <h2 class="text-gray-900 title-font text-lg font-medium">FBR’s Amnesty Scheme: Your Last Chance to Secure Ace Property Assets in LHR Without Disclosing Income Source</h2>
+                                <p class="mt-1">The FBR’s amnesty scheme that assisted builders and buyers immensely is approaching its final days. The potential investors have to hurry before the time runs out.</p>
+                            </div>
+                        </div>
+                        <div class="lg:w-1/4 md:w-1/2 p-4 w-full">
+                            <a class="block relative h-48 rounded overflow-hidden" href="/">
+                                <img alt="ecommerce" class="object-cover object-center w-full h-full block" src="https://dummyimage.com/421x261" />
+                            </a>
+                            <div class="mt-4">
+                                <h3 class="text-gray-500 text-xs tracking-widest title-font mb-1">REAL ESTATE TRENDS - 3 MIN READ</h3>
+                                <h2 class="text-gray-900 title-font text-lg font-medium">Canal Valley Daska Property Sales Meetup – Invest in Your Dream Property</h2>
+                                <p class="mt-1">The Canal Valley Daska Property Sales Meetup brings a fantastic opportunity for you to get in-depth details about Canal Valley Daska that makes it the region’s best place …</p>
+                            </div>
+                        </div>
+                        <div class="lg:w-1/4 md:w-1/2 p-4 w-full">
+                            <a class="block relative h-48 rounded overflow-hidden" href="/">
+                                <img alt="ecommerce" class="object-cover object-center w-full h-full block" src="https://dummyimage.com/422x262" />
+                            </a>
+                            <div class="mt-4">
+                                <h3 class="text-gray-500 text-xs tracking-widest title-font mb-1">PROPERTY - 3 MIN READ</h3>
+                                <h2 class="text-gray-900 title-font text-lg font-medium">Taking A Closer Look at the Inventory and Pricing Plan of Madison Square, Lahore</h2>
+                                <p class="mt-1">The 25-storeyy high mixed-use project Madison Square claims a prominent spot on Mehmood Kasuri Road in Gulberg 3. It features high-in-demand commercial outlets and hotel suites. These units …</p>
+                            </div>
+                        </div>
+                        <div class="lg:w-1/4 md:w-1/2 p-4 w-full">
+                            <a class="block relative h-48 rounded overflow-hidden" href="/">
+                                <img alt="ecommerce" class="object-cover object-center w-full h-full block" src="https://dummyimage.com/423x263" />
+                            </a>
+                            <div class="mt-4">
+                                <h3 class="text-gray-500 text-xs tracking-widest title-font mb-1">LAWS & TAXES - 13 MIN READ</h3>
+                                <h2 class="text-gray-900 title-font text-lg font-medium">A Guide to Calculating Your Zakat for 2023</h2>
+                                <p class="mt-1">Here is the step-by-step process that will help you understand how to calculate Zakat on gold and all your other assets for one lunar year.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            {/** FORUMS SECTION */}
+            <section class="text-gray-600 body-font">
+                <div class="container px-5 py-24 mx-auto">
+                    <div class="flex flex-wrap w-full mb-20">
+                        <div class="lg:w-1/2 w-full mb-6 lg:mb-0">
+                            <h1 class="sm:text-3xl text-2xl font-medium title-font mb-2 text-gray-900">Forums</h1>
+                            <div class="h-1 w-20 bg-indigo-500 rounded"></div>
+                        </div>
+                    </div>
+                    <div class="flex flex-wrap -m-4">
+                        <div class="p-4 md:w-1/3">
+                            <div class="flex rounded-lg h-full bg-gray-100 p-8 flex-col">
+                                <div class="flex items-center mb-3">
+                                    <div class="w-8 h-8 mr-3 inline-flex items-center justify-center rounded-full bg-indigo-500 text-white flex-shrink-0">
+                                        <svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" class="w-5 h-5" viewBox="0 0 24 24">
+                                            <path d="M22 12h-4l-3 9L9 3l-3 9H2"></path>
+                                        </svg>
+                                    </div>
+                                    <h2 class="text-gray-900 text-lg title-font font-medium">Buying Property</h2>
+                                </div>
+                                <div class="flex-grow">
+                                    <p class="leading-relaxed text-base">11k Topics | 2 New Topics</p>
+                                    <a class="mt-3 text-indigo-500 inline-flex items-center" href="/">Learn More
+                                        <svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" class="w-4 h-4 ml-2" viewBox="0 0 24 24">
+                                            <path d="M5 12h14M12 5l7 7-7 7"></path>
+                                        </svg>
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="p-4 md:w-1/3">
+                            <div class="flex rounded-lg h-full bg-gray-100 p-8 flex-col">
+                                <div class="flex items-center mb-3">
+                                    <div class="w-8 h-8 mr-3 inline-flex items-center justify-center rounded-full bg-indigo-500 text-white flex-shrink-0">
+                                        <svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" class="w-5 h-5" viewBox="0 0 24 24">
+                                            <path d="M20 21v-2a4 4 0 00-4-4H8a4 4 0 00-4 4v2"></path>
+                                            <circle cx="12" cy="7" r="4"></circle>
+                                        </svg>
+                                    </div>
+                                    <h2 class="text-gray-900 text-lg title-font font-medium">Renting Property</h2>
+                                </div>
+                                <div class="flex-grow">
+                                    <p class="leading-relaxed text-base">556 Topics | 2 New Topics</p>
+                                    <a class="mt-3 text-indigo-500 inline-flex items-center" href="/">Learn More
+                                        <svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" class="w-4 h-4 ml-2" viewBox="0 0 24 24">
+                                            <path d="M5 12h14M12 5l7 7-7 7"></path>
+                                        </svg>
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            {/** TESTIMONIAL SECTION */}
             <section className="bg-white text-gray-600 body-font dark:bg-gray-900">
                 <div className="container px-5 py-24 mx-auto">
                     <h1 className="text-3xl font-medium title-font text-gray-900 mb-12 text-center dark:text-white">Testimonials</h1>
@@ -119,7 +330,7 @@ function Home() {
                                     <img alt="testimonial" src="https://dummyimage.com/107x107" className="w-12 h-12 rounded-full flex-shrink-0 object-cover object-center" />
                                     <span className="flex-grow flex flex-col pl-4">
                                         <span className="title-font font-medium text-gray-900 dark:text-white">Shahzaib Malik</span>
-                                        <span className="text-gray-500 text-sm dark:text-gray-400">Lahore, Pakistan</span>
+                                        <span className="text-gray-500 text-sm dark:text-gray-400">Islamabad, Pakistan</span>
                                     </span>
                                 </a>
                             </div>
@@ -127,6 +338,7 @@ function Home() {
                     </div>
                 </div>
             </section>
+            {/** CONTACT SECTION */}
             <section className="bg-white text-gray-600 body-font relative dark:bg-gray-900">
                 <div className="container px-5 py-24 mx-auto">
                     <div className="flex flex-col text-center w-full mb-12">
