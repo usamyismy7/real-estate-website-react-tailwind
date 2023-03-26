@@ -10,9 +10,9 @@ height: 20px;
 font-size: 3rem;
 z-index: 1;
 cursor: pointer;
-color: rgb(29, 78, 216);
+color: rgb(46,139,87);
 &:hover{
-    color: rgb(30, 64, 175);
+    color: rgb(47,125,46);
 }
 @media only screen and (max-width: 660px) {
     left: 80%;
