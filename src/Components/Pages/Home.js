@@ -16,7 +16,7 @@ function Home() {
                 <div className="py-8 px-4 mx-auto max-w-screen-xl text-center lg:py-32 lg:px-12">
                     <p className="mb-8 text-lg text-gray-900 lg:text-3xl sm:px-16 xl:px-48 font-semibold">Search properties for sale in Pakistan</p>
                     <div className="flex flex-col mb-8 lg:mb-16 space-y-4 sm:flex-row sm:justify-center sm:space-y-0 sm:space-x-4">
-                        <a href="/" className="inline-flex justify-center items-center py-3 px-5 text-base font-medium text-center text-white rounded-lg bg-primary-700 hover:bg-primary-800 focus:ring-4 focus:ring-primary-300 dark:focus:ring-primary-900 w-32">
+                        <a href="/" className="inline-flex justify-center items-center py-3 px-5 text-base font-medium text-center text-white rounded-lg bg-emerald-700 hover:bg-emerald-800 focus:ring-4 focus:ring-emerald-300 dark:focus:ring-emerald-900 w-32">
                             BUY
                         </a>
                         <a href="/" className="inline-flex justify-center items-center py-3 px-5 text-base font-medium text-center text-gray-900 rounded-lg border border-gray-300 hover:bg-gray-100 focus:ring-4 focus:ring-gray-100 dark:text-white dark:border-gray-700 dark:hover:bg-gray-700 dark:focus:ring-gray-800 w-32">
@@ -53,8 +53,8 @@ function Home() {
                                     </div>
                                 </div>
                                 <div className="relative w-full">
-                                    <input type="search" id="search-dropdown" className="block p-2.5 w-full z-20 text-sm text-gray-900 bg-gray-50 rounded-r-lg border-l-gray-50 border-l-2 border border-gray-300 focus:ring-blue-500 focus:border-blue-500 dark:bg-gray-700 dark:border-l-gray-700  dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:border-blue-500" placeholder="Location" required />
-                                    <button type="submit" className="absolute top-0 right-0 p-2.5 text-sm font-medium text-white bg-blue-700 rounded-r-lg border border-blue-700 hover:bg-blue-800 focus:ring-4 focus:outline-none focus:ring-blue-300 dark:bg-blue-600 dark:hover:bg-blue-700 dark:focus:ring-blue-800">
+                                    <input type="search" id="search-dropdown" className="block p-2.5 w-full z-20 text-sm text-gray-900 bg-gray-50 rounded-r-lg border-l-gray-50 border-l-2 border border-gray-300 focus:ring-emerald-500 focus:border-emerald-500 dark:bg-gray-700 dark:border-l-gray-700  dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:border-emerald-500" placeholder="Location" required />
+                                    <button type="submit" className="absolute top-0 right-0 p-2.5 text-sm font-medium text-white bg-emerald-700 rounded-r-lg border border-emerald-700 hover:bg-emerald-800 focus:ring-4 focus:outline-none focus:ring-emerald-300 dark:bg-emerald-600 dark:hover:bg-emerald-700 dark:focus:ring-emerald-800">
                                         <svg aria-hidden="true" className="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M21 21l-6-6m2-5a7 7 0 11-14 0 7 7 0 0114 0z"></path></svg>
                                         <span className="sr-only">Search</span>
                                     </button>
@@ -70,14 +70,14 @@ function Home() {
                     <div class="flex flex-wrap w-full mb-20">
                         <div class="lg:w-1/2 w-full mb-6 lg:mb-0">
                             <h1 class="sm:text-3xl text-2xl font-medium title-font mb-2 text-gray-900">Projects</h1>
-                            <div class="h-1 w-20 bg-indigo-500 rounded"></div>
+                            <div class="h-1 w-20 bg-emerald-500 rounded"></div>
                         </div>
                     </div>
                     <div class="flex flex-wrap -m-4">
                         <div class="xl:w-1/4 md:w-1/2 p-4">
                             <div class="bg-gray-100 p-6 rounded-lg">
                                 <img class="h-40 rounded w-full object-cover object-center mb-6" src="https://dummyimage.com/720x400" alt="content" />
-                                <h3 class="tracking-widest text-indigo-500 text-xs font-medium title-font">Islamabad, B-17</h3>
+                                <h3 class="tracking-widest text-emerald-500 text-xs font-medium title-font">Islamabad, B-17</h3>
                                 <h2 class="text-lg text-gray-900 font-medium title-font mb-4">54 Lakh to 2.5 Crore, Ideas One</h2>
                                 <p class="leading-relaxed text-base">Shops, Flats</p>
                             </div>
@@ -85,7 +85,7 @@ function Home() {
                         <div class="xl:w-1/4 md:w-1/2 p-4">
                             <div class="bg-gray-100 p-6 rounded-lg">
                                 <img class="h-40 rounded w-full object-cover object-center mb-6" src="https://dummyimage.com/721x401" alt="content" />
-                                <h3 class="tracking-widest text-indigo-500 text-xs font-medium title-font">Gadap Town, Surjani Town</h3>
+                                <h3 class="tracking-widest text-emerald-500 text-xs font-medium title-font">Gadap Town, Surjani Town</h3>
                                 <h2 class="text-lg text-gray-900 font-medium title-font mb-4">44 Lakh to 1 Crore, Aziz Skyline</h2>
                                 <p class="leading-relaxed text-base">Flats</p>
                             </div>
@@ -93,7 +93,7 @@ function Home() {
                         <div class="xl:w-1/4 md:w-1/2 p-4">
                             <div class="bg-gray-100 p-6 rounded-lg">
                                 <img class="h-40 rounded w-full object-cover object-center mb-6" src="https://dummyimage.com/722x402" alt="content" />
-                                <h3 class="tracking-widest text-indigo-500 text-xs font-medium title-font">Tariq Ismail Road, Lahore</h3>
+                                <h3 class="tracking-widest text-emerald-500 text-xs font-medium title-font">Tariq Ismail Road, Lahore</h3>
                                 <h2 class="text-lg text-gray-900 font-medium title-font mb-4">2.5 Crore, Eastern Homes</h2>
                                 <p class="leading-relaxed text-base">Houses</p>
                             </div>
@@ -101,7 +101,7 @@ function Home() {
                         <div class="xl:w-1/4 md:w-1/2 p-4">
                             <div class="bg-gray-100 p-6 rounded-lg">
                                 <img class="h-40 rounded w-full object-cover object-center mb-6" src="https://dummyimage.com/723x403" alt="content" />
-                                <h3 class="tracking-widest text-indigo-500 text-xs font-medium title-font">GT Road, Islamabad</h3>
+                                <h3 class="tracking-widest text-emerald-500 text-xs font-medium title-font">GT Road, Islamabad</h3>
                                 <h2 class="text-lg text-gray-900 font-medium title-font mb-4">66 Lakh to 90 Lakh, NORA Residences</h2>
                                 <p class="leading-relaxed text-base">Flats</p>
                             </div>
@@ -115,7 +115,7 @@ function Home() {
                     <div class="flex flex-wrap w-full mb-20">
                         <div class="lg:w-1/2 w-full mb-6 lg:mb-0">
                             <h1 class="sm:text-3xl text-2xl font-medium title-font mb-2 text-gray-900">News</h1>
-                            <div class="h-1 w-20 bg-indigo-500 rounded"></div>
+                            <div class="h-1 w-20 bg-emerald-500 rounded"></div>
                         </div>
                     </div>
                     <div class="-my-8 divide-y-2 divide-gray-100">
@@ -126,7 +126,7 @@ function Home() {
                             </div>
                             <div class="md:flex-grow">
                                 <p class="leading-relaxed">Multan: The Defence Housing Authority (DHA) Multan inaugurated the much-awaited Pakistan Square on March 23, …</p>
-                                <a class="text-indigo-500 inline-flex items-center mt-4" href="/">Learn More
+                                <a class="text-emerald-500 inline-flex items-center mt-4" href="/">Learn More
                                     <svg class="w-4 h-4 ml-2" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2" fill="none" stroke-linecap="round" stroke-linejoin="round">
                                         <path d="M5 12h14"></path>
                                         <path d="M12 5l7 7-7 7"></path>
@@ -141,7 +141,7 @@ function Home() {
                             </div>
                             <div class="md:flex-grow">
                                 <p class="leading-relaxed">Karachi: Foreign Minister (FM) Bilawal Bhutto Zardari inaugurated the Zia Moheyddin Flyover at Jauhar Chowrangi …</p>
-                                <a class="text-indigo-500 inline-flex items-center mt-4" href="/">Learn More
+                                <a class="text-emerald-500 inline-flex items-center mt-4" href="/">Learn More
                                     <svg class="w-4 h-4 ml-2" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2" fill="none" stroke-linecap="round" stroke-linejoin="round">
                                         <path d="M5 12h14"></path>
                                         <path d="M12 5l7 7-7 7"></path>
@@ -156,7 +156,7 @@ function Home() {
                             </div>
                             <div class="md:flex-grow">
                                 <p class="leading-relaxed">Islamabad: The Capital Development Authority (CDA) Chairman Noor-ul-Amin Mengal has directed the officials of the …</p>
-                                <a class="text-indigo-500 inline-flex items-center mt-4" href="/">Learn More
+                                <a class="text-emerald-500 inline-flex items-center mt-4" href="/">Learn More
                                     <svg class="w-4 h-4 ml-2" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2" fill="none" stroke-linecap="round" stroke-linejoin="round">
                                         <path d="M5 12h14"></path>
                                         <path d="M12 5l7 7-7 7"></path>
@@ -173,7 +173,7 @@ function Home() {
                     <div class="flex flex-wrap w-full mb-20">
                         <div class="lg:w-1/2 w-full mb-6 lg:mb-0">
                             <h1 class="sm:text-3xl text-2xl font-medium title-font mb-2 text-gray-900">Blogs</h1>
-                            <div class="h-1 w-20 bg-indigo-500 rounded"></div>
+                            <div class="h-1 w-20 bg-emerald-500 rounded"></div>
                         </div>
                     </div>
                     <div class="flex flex-wrap -m-4">
@@ -226,14 +226,14 @@ function Home() {
                     <div class="flex flex-wrap w-full mb-20">
                         <div class="lg:w-1/2 w-full mb-6 lg:mb-0">
                             <h1 class="sm:text-3xl text-2xl font-medium title-font mb-2 text-gray-900">Forums</h1>
-                            <div class="h-1 w-20 bg-indigo-500 rounded"></div>
+                            <div class="h-1 w-20 bg-emerald-500 rounded"></div>
                         </div>
                     </div>
                     <div class="flex flex-wrap -m-4">
                         <div class="p-4 md:w-1/3">
                             <div class="flex rounded-lg h-full bg-gray-100 p-8 flex-col">
                                 <div class="flex items-center mb-3">
-                                    <div class="w-8 h-8 mr-3 inline-flex items-center justify-center rounded-full bg-indigo-500 text-white flex-shrink-0">
+                                    <div class="w-8 h-8 mr-3 inline-flex items-center justify-center rounded-full bg-emerald-500 text-white flex-shrink-0">
                                         <svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" class="w-5 h-5" viewBox="0 0 24 24">
                                             <path d="M22 12h-4l-3 9L9 3l-3 9H2"></path>
                                         </svg>
@@ -242,7 +242,7 @@ function Home() {
                                 </div>
                                 <div class="flex-grow">
                                     <p class="leading-relaxed text-base">11k Topics | 2 New Topics</p>
-                                    <a class="mt-3 text-indigo-500 inline-flex items-center" href="/">Learn More
+                                    <a class="mt-3 text-emerald-500 inline-flex items-center" href="/">Learn More
                                         <svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" class="w-4 h-4 ml-2" viewBox="0 0 24 24">
                                             <path d="M5 12h14M12 5l7 7-7 7"></path>
                                         </svg>
@@ -253,7 +253,7 @@ function Home() {
                         <div class="p-4 md:w-1/3">
                             <div class="flex rounded-lg h-full bg-gray-100 p-8 flex-col">
                                 <div class="flex items-center mb-3">
-                                    <div class="w-8 h-8 mr-3 inline-flex items-center justify-center rounded-full bg-indigo-500 text-white flex-shrink-0">
+                                    <div class="w-8 h-8 mr-3 inline-flex items-center justify-center rounded-full bg-emerald-500 text-white flex-shrink-0">
                                         <svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" class="w-5 h-5" viewBox="0 0 24 24">
                                             <path d="M20 21v-2a4 4 0 00-4-4H8a4 4 0 00-4 4v2"></path>
                                             <circle cx="12" cy="7" r="4"></circle>
@@ -263,7 +263,7 @@ function Home() {
                                 </div>
                                 <div class="flex-grow">
                                     <p class="leading-relaxed text-base">556 Topics | 2 New Topics</p>
-                                    <a class="mt-3 text-indigo-500 inline-flex items-center" href="/">Learn More
+                                    <a class="mt-3 text-emerald-500 inline-flex items-center" href="/">Learn More
                                         <svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" class="w-4 h-4 ml-2" viewBox="0 0 24 24">
                                             <path d="M5 12h14M12 5l7 7-7 7"></path>
                                         </svg>
@@ -324,23 +324,23 @@ function Home() {
                             <div className="p-2 w-1/2">
                                 <div className="relative">
                                     <label htmlFor="name" className="leading-7 text-sm text-gray-600 dark:text-gray-400">Name</label>
-                                    <input type="text" id="name" name="name" className="w-full bg-gray-100 bg-opacity-50 rounded border border-gray-300 focus:border-indigo-500 focus:bg-white focus:ring-2 focus:ring-indigo-200 text-base outline-none text-gray-700 py-1 px-3 leading-8 transition-colors duration-200 ease-in-out" />
+                                    <input type="text" id="name" name="name" className="w-full bg-gray-100 bg-opacity-50 rounded border border-gray-300 focus:border-emerald-500 focus:bg-white focus:ring-2 focus:ring-emerald-200 text-base outline-none text-gray-700 py-1 px-3 leading-8 transition-colors duration-200 ease-in-out" />
                                 </div>
                             </div>
                             <div className="p-2 w-1/2">
                                 <div className="relative">
                                     <label htmlFor="email" className="leading-7 text-sm text-gray-600 dark:text-gray-400">Email</label>
-                                    <input type="email" id="email" name="email" className="w-full bg-gray-100 bg-opacity-50 rounded border border-gray-300 focus:border-indigo-500 focus:bg-white focus:ring-2 focus:ring-indigo-200 text-base outline-none text-gray-700 py-1 px-3 leading-8 transition-colors duration-200 ease-in-out" />
+                                    <input type="email" id="email" name="email" className="w-full bg-gray-100 bg-opacity-50 rounded border border-gray-300 focus:border-emerald-500 focus:bg-white focus:ring-2 focus:ring-emerald-200 text-base outline-none text-gray-700 py-1 px-3 leading-8 transition-colors duration-200 ease-in-out" />
                                 </div>
                             </div>
                             <div className="p-2 w-full">
                                 <div className="relative">
                                     <label htmlFor="message" className="leading-7 text-sm text-gray-600 dark:text-gray-400">Message</label>
-                                    <textarea id="message" name="message" className="w-full bg-gray-100 bg-opacity-50 rounded border border-gray-300 focus:border-indigo-500 focus:bg-white focus:ring-2 focus:ring-indigo-200 h-32 text-base outline-none text-gray-700 py-1 px-3 resize-none leading-6 transition-colors duration-200 ease-in-out"></textarea>
+                                    <textarea id="message" name="message" className="w-full bg-gray-100 bg-opacity-50 rounded border border-gray-300 focus:border-emerald-500 focus:bg-white focus:ring-2 focus:ring-emerald-200 h-32 text-base outline-none text-gray-700 py-1 px-3 resize-none leading-6 transition-colors duration-200 ease-in-out"></textarea>
                                 </div>
                             </div>
                             <div className="p-2 w-full">
-                                <button className="flex mx-auto text-white border-0 py-2 px-8 focus:outline-none rounded text-lg bg-primary-700 hover:bg-primary-800 focus:ring-4 focus:ring-primary-300 dark:focus:ring-primary-900"
+                                <button className="flex mx-auto text-white border-0 py-2 px-8 focus:outline-none rounded text-lg bg-emerald-700 hover:bg-emerald-800 focus:ring-4 focus:ring-emerald-300 dark:focus:ring-emerald-900"
                                 >Send</button>
                             </div>
                         </div>
